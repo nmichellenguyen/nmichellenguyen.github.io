@@ -113,3 +113,403 @@
   li {
     list-style-type: none;
 }   
+
+
+
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+  color: rgba(98, 176, 222, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+  font-family: "Julius Sans One";
+  font-size: 1.7em;
+  background-color: rgba(255, 255, 255, 1);
+  border-bottom-width: 0px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+  color: #67B8BC;
+  background-color: rgba(255, 255, 255, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+  color: rgba(0, 0, 0, 1);
+  background-color: rgba(248, 248, 248, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+  color: rgba(98, 176, 222, 1);
+  background-color: rgba(231, 231, 231, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+  border-color: #ddd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+  background-color: #ddd;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+  background-color: #ffffff;
+}
+
+<!-- header goes above here -->
+
+
+.body {
+font-family: "Julius Sans One";
+
+}
+
+.h1 {
+padding:0;
+margin-top:0px;
+font-size: 7.0em;
+color: black;
+
+}
+
+.h2 {
+padding:0;
+margin-top:0px;
+font-size: 2.0em;
+}
+
+.pageOne {
+font-family: "Julius Sans One";
+color:black;
+background: url("https://images.unsplash.com/photo-1514537619958-0bd4fc44963c?auto=format&fit=crop&w=2602&q=80");
+background-size: cover;
+height: 1000px;
+}
+
+
+.me {
+height:300px;
+opacity:0.4;
+}
+
+.pageTwo {
+font-family: "Julius Sans One";
+color: rgba(98, 176, 222, 1);
+background: url("https://images.unsplash.com/photo-1462833867037-0f06eab31cc4?auto=format&fit=crop&w=2550&q=80");
+background-size: cover;
+height: 900px;
+padding-left:5%;
+}
+
+.pageThree {
+font-family: "Julius Sans One";
+background: url("https://images.unsplash.com/reserve/aOcWqRTfQ12uwr3wWevA_14401305508_804b300054_o.jpg?auto=format&fit=crop&w=2555&q=80");
+background-size: cover;
+height: 1000px;
+}
+
+.pageFour {
+font-family: "Julius Sans One";
+background-size: cover;
+height: 1000px;
+}
+
+.pageFive {
+font-family: "Julius Sans One";
+background: url("https://images.unsplash.com/photo-1462833867037-0f06eab31cc4?auto=format&fit=crop&w=2550&q=80");
+background-size: cover;
+height: 1000px;
+}
+
+.pageSix {
+font-family: "Julius Sans One";
+background-size: cover;
+}
+
+
+.imageGrid {
+line-height: 0;
+}
+.imageGrid .tile {
+width:33.33%;
+min-height:20em;
+line-height: 1.2;
+display:inline-block;
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+overflow: hidden;
+position: relative;
+
+color:#fff;
+font-family:"Verdana",sans-serif;
+text-shadow: 2px 2px 2px #000;
+cursor: pointer; 
+cursor: hand;
+}
+
+.imageGrid .tile:before {
+content: '';
+background-color: rgba(15,15,15,0.5);
+display: block;
+width: 100%;
+height: 100%;
+z-index: 0;
+position: absolute;
+}
+
+.imageGrid .tile:hover:before {
+display: none;
+}
+
+.imageGrid .tile .textWrapper {
+text-align: center;
+vertical-align: middle;
+width: 80%;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: .75em;
+}
+
+.imageGrid .tile .textWrapper .content {
+display: none;
+}
+
+.imageGrid .tile:hover .textWrapper .content {
+display: block;
+}
+
+.imageGrid .tile:hover .textWrapper .content h2 {
+margin: 0;
+}
+
+@media (max-width: 1000px) {
+.imageGrid .tile {
+  width: 50%;
+}
+}
+
+@media (max-width: 700px) {
+.imageGrid .tile {
+  width: 100%;
+}
+
+}
+
+
+.right{
+  float:right;
+}
+
+.left{
+  float:left;
+}
+
+
+
+.bigpixi-footer-social {
+  margin-left: auto;
+  margin-top: 8px;
+}
+
+.bigpixi-footer-social__list-item {
+  display: inline-block;
+  margin-left: 16px;
+}
+.bigpixi-footer__icon-link {
+  display: inline-block;
+  -webkit-transition: 0.1s cubic-bezier(0.39, 0.575, 0.565, 1);
+  transition: 0.1s cubic-bezier(0.39, 0.575, 0.565, 1);
+  -webkit-transition-property: opacity, -webkit-transform;
+  transition-property: opacity, -webkit-transform;
+  transition-property: opacity, transform;
+  transition-property: opacity, transform, -webkit-transform;
+}
+.bigpixi-footer-social__icon {
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+}
+.bigpixi-footer-social__icon:hover {
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  border: 1px solid #e2e2e2;
+  padding: 2px;
+  transition : .2s;
+}
+
+P {
+font-size:1.6em;
+
+}
+
+
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+color: #aca49c;
+font-size: 0.875em;
+}
+
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+color: #bbb5af;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+color: #aca49c;
+font-size: 0.875em;
+}
+
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+color: #bbb5af;
+}
+
+input::placeholder, textarea::placeholder {
+color: #aca49c;
+font-size: 0.875em;
+}
+
+input:focus::placeholder, textarea::focus:placeholder {
+color: #bbb5af;
+}
+
+input::-ms-placeholder, textarea::-ms-placeholder {
+color: #aca49c;
+font-size: 0.875em;
+}
+
+input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
+color: #bbb5af;
+}
+
+/* on hover placeholder */
+
+input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+color: #e2dedb;
+font-size: 0.875em;
+}
+
+input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
+color: #cbc6c1;
+}
+
+input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
+color: #e2dedb;
+font-size: 0.875em;
+}
+
+input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
+color: #cbc6c1;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+color: #e2dedb;
+font-size: 0.875em;
+}
+
+input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+color: #cbc6c1;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+color: #e2dedb;
+font-size: 0.875em;
+}
+
+input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
+color: #cbc6c1;
+}
+
+body {
+font-family: 'Julius Sans One', sans-serif;
+background: #ffffff;
+color: #b3aca7;
+}
+
+header {
+position: relative;
+margin: 100px 0 25px 0;
+font-size: 2.3em;
+text-align: center;
+letter-spacing: 7px;
+}
+
+#form {
+position: relative;
+width: 500px;
+margin: 50px auto 100px auto;
+}
+
+input {
+font-family: 'Julius Sans One', sans-serif;
+font-size: 0.875em;
+width: 470px;
+height: 50px;
+padding: 0px 15px 0px 15px;
+
+background: transparent;
+outline: none;
+color: #726659;
+
+border: solid 1px #b3aca7;
+border-bottom: none;
+
+transition: all 0.3s ease-in-out;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+background: #b3aca7;
+color: #e2dedb;
+}
+
+textarea {
+width: 470px;
+max-width: 470px;
+height: 110px;
+max-height: 110px;
+padding: 15px;
+
+background: transparent;
+outline: none;
+
+color: #726659;
+font-family: 'Julius Sans One', sans-serif;
+font-size: 0.875em;
+
+border: solid 1px #b3aca7;
+
+transition: all 0.3s ease-in-out;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+}
+
+textarea:hover {
+background: #b3aca7;
+color: #e2dedb;
+}
+
+#submit {
+width: 470px;
+
+padding: 0;
+margin: 0px 0px 0px 0px;
+
+font-family: 'Julius Sans One', sans-serif;
+font-size: 0.875em;
+color: #b3aca7;
+
+outline:none;
+cursor: pointer;
+
+border: solid 1px #b3aca7;
+border-top: none;
+}
+
+#submit:hover {
+color: #e2dedb;
+}
